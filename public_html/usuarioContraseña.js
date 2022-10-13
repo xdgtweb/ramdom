@@ -46,7 +46,7 @@ function orden()
 
 function preguntarUsuario()
 {
-    let usuario = prompt("Introduce el Usuario").toString().toLocaleLowerCase().trim();
+    let usuario = prompt("Introduce el Usuario");
     
     return usuario;
 }
